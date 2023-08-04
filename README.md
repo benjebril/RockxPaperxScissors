@@ -81,7 +81,6 @@ def calculate_round_two(scores):
         for i in range(len(scores)):
             if (scores[i] == 'Paper'):
                 scores[i] = 'X'
-
     return scores
 
 def round_two(number_of_players1, names, scores):
@@ -94,8 +93,6 @@ def round_two(number_of_players1, names, scores):
     return scores
 
 def main():
-    ##### DO NOT EDIT THE CODE BELOW #####
-
     # Get seed from user.
     seed = int(input('Enter a seed: '))
 
@@ -119,6 +116,4 @@ def main():
 
 
 
-    ##### DO NOT EDIT THE CODE ABOVE #####
-
-    # Start your code here.
+  
