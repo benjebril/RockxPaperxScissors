@@ -45,7 +45,6 @@ def calculate_round_one(scores):
         for i in range(len(scores)):
             if scores[i] == 'Rock':
                 scores[i] = 'X'
-
     return scores
 
 
